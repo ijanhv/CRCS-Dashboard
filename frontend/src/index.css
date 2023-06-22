@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+Track
+::-webkit-scrollbar-track {
+  background: #7a7f9d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: "#A9A9A9";
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background: "#A9A9A9";
+}
+
+.card {
+  background-image: linear-gradient(to right top, #3913ad, #5734c1, #7250d5, #8c6de9, #a689fd);
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg,#FF5370,#ff869a);
+}
