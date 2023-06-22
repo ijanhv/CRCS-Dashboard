@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
-app.use(cors({origin: ['http://localhost:5173', 'http://localhost:3000', 'https://crcs-backend.onrender.com'], credentials: true}))
+app.use(cors({origin: ['http://localhost:5173', 'http://localhost:3000', 'https://crcs-dashboard-lime.vercel.app/'], credentials: true}))
 
 app.use(morgan("common"));
 app.use(bodyParser.json());
