@@ -6,7 +6,6 @@ import { BrowserRouter, Navigate, Route, RouterProvider, Routes } from "react-ro
 import { themeSettings } from "theme";
 import Dashboard from "scenes/dashboard";
 import Layout from "scenes/layout";
-import Admin from "scenes/admin";
 import Societies from "scenes/societies";
 import Chart from "scenes/chart";
 import Forms from "scenes/forms";
@@ -42,7 +41,6 @@ function App() {
             <Route path="/admin/login" element={<AdminLogin />} />
 
             <Route element={<AdminLayout/>} >
-              <Route path="/admin" element={<Admin />} />
               <Route path="/admin/dashboard" element={<Dashboard />} />
               <Route path="/admin/societies" element={<Societies />} />
               <Route path="/admin/charts" element={<Chart />} />
@@ -55,7 +53,6 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
        
             <Route path="/breakdown" element={<Breakdown />} />
-            <Route path="/admin" element={<Admin />} />
             <Route path="/societies" element={<Societies />} />
             <Route path="/charts" element={<Chart />} />
             <Route path="/forms" element={<Forms />} />
